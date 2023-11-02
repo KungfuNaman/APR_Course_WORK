@@ -1,0 +1,25 @@
+{
+  "VARIANT_ID": "189",
+  "VALIDATION": "|true|0|4|[]|",
+  "patchhunks": [
+    {
+      "LOCATION": "bugLis.App",
+      "PATH": "\\/Users\\/naman\\/Documents\\/finalAstor\\/astor\\/bugs\\/bugLis\\/src\\/main\\/java\\/bugLis\\/App.java",
+      "INGREDIENT_SCOPE": "LOCAL",
+      "SUSPICIOUNESS": "1",
+      "INGREDIENT_PARENT": "ends.put(length + 1, i)",
+      "PATCH_HUNK_TYPE": "CtInvocationImpl|CtBlockImpl",
+      "ORIGINAL_CODE": "if ((length \u003d\u003d longest) || (val \u003c arr[ends.get(length + 1)])) {\\n\\tends.put(length + 1, i);\\n\\tlongest \u003d length + 1;\\n}",
+      "BUGGY_CODE_TYPE": "CtIfImpl|CtBlockImpl",
+      "OPERATOR": "InsertBeforeOp",
+      "MODIFIED_FILE_PATH": "\\/Users\\/naman\\/Documents\\/finalAstor\\/astor\\/.\\/output_astor\\/AstorMain-bugLis\\/\\/src\\/\\/variant-189\\/bugLis\\/App.java",
+      "LINE": "26",
+      "MP_RANKING": "9",
+      "PATCH_HUNK_CODE": "ends.put(length + 1, i)"
+    }
+  ],
+  "TIME": "10",
+  "GENERATION": "4",
+  "FOLDER_SOLUTION_CODE": "\\/Users\\/naman\\/Documents\\/finalAstor\\/astor\\/.\\/output_astor\\/AstorMain-bugLis\\/\\/src\\/\\/variant-189",
+  "PATCH_DIFF_ORIG": "--- \\/src\\/main\\/java\\/bugLis\\/App.java\\n+++ \\/src\\/main\\/java\\/bugLis\\/App.java\\n@@ -26,2 +26,2 @@\\n-\\t\\t\\tif ((length \u003d\u003d longest) || (val \u003c arr[ends.get(length + 1)])) {\\n-\\t\\t\\t\\tends.put(length + 1, i);\\n+\\n+\\t\\t\\tends.put(length + 1, i); \\t\\t\\tif ((length \u003d\u003d longest) || (val \u003c arr[ends.get(length + 1)])) { \\t\\t\\t\\tends.put(length + 1, i);\\n\\n"
+}
