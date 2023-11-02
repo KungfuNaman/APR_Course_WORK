@@ -1,0 +1,12 @@
+{
+  "general": {
+    "NR_RIGHT_COMPILATIONS": 315,
+    "EXECUTION_IDENTIFIER": "",
+    "FAULT_LOCALIZATION": "fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization",
+    "OUTPUT_STATUS": "MAX_GENERATION",
+    "NR_FAILLING_COMPILATIONS": 73,
+    "NR_GENERATIONS": 10,
+    "TOTAL_TIME": 2174.451
+  },
+  "patches": []
+}
