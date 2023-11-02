@@ -1,0 +1,1778 @@
+{
+  "general": {
+    "NR_RIGHT_COMPILATIONS": 304,
+    "EXECUTION_IDENTIFIER": "",
+    "FAULT_LOCALIZATION": "fr.inria.astor.core.faultlocalization.flacoco.FlacocoFaultLocalization",
+    "OUTPUT_STATUS": "MAX_GENERATION",
+    "NR_FAILLING_COMPILATIONS": 59,
+    "NR_GENERATIONS": 10,
+    "TOTAL_TIME": 32.496
+  },
+  "patches": [
+    {
+      "VARIANT_ID": "42",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.value \u003d null",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-42\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.value \u003d null"
+        }
+      ],
+      "TIME": "0",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-42",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.value \u003d null;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "45",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-45\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "0",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-45",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "48",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.predecessors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-48\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.predecessors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()"
+        }
+      ],
+      "TIME": "1",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-48",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.predecessors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e();\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "53",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-53\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "1",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-53",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "55",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-55\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "1",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-55",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "56",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-56\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "1",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-56",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "62",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-62\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "2",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-62",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "64",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-64\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "2",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-64",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "68",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-68\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "3",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-68",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "72",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-72\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "3",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-72",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "75",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.successor \u003d successor",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-75\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.successor \u003d successor"
+        }
+      ],
+      "TIME": "3",
+      "GENERATION": "1",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-75",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.successor \u003d successor;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "84",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.successor \u003d null",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-84\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.successor \u003d null"
+        }
+      ],
+      "TIME": "4",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-84",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.successor \u003d null;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "87",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.value \u003d value",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-87\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.value \u003d value"
+        }
+      ],
+      "TIME": "4",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-87",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.value \u003d value;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "91",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-91\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "4",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-91",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "93",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "successors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-93\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "successors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()"
+        }
+      ],
+      "TIME": "5",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-93",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tsuccessors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e();\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "94",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "successors \u003d successors",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-94\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "successors \u003d successors"
+        }
+      ],
+      "TIME": "5",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-94",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tsuccessors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "95",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-95\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "5",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-95",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "102",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "this.predecessors \u003d predecessors",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "ReplaceOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-102\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "this.predecessors \u003d predecessors"
+        }
+      ],
+      "TIME": "5",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-102",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50,2 +50,2 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n-\\t\\tthis.successors \u003d successors;\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tthis.predecessors \u003d predecessors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "107",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-107\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "6",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-107",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "109",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-109\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "6",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-109",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "111",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-111\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "6",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-111",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "112",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-112\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "6",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-112",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "114",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-114\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "7",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-114",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "116",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-116\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "7",
+      "GENERATION": "2",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-116",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "129",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-129\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "7",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-129",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "132",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-132\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "8",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-132",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "137",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-137\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "8",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-137",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "154",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-154\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "9",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-154",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "158",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-158\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "10",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-158",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "162",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-162\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "10",
+      "GENERATION": "3",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-162",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "165",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-165\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "10",
+      "GENERATION": "4",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-165",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "174",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-174\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "11",
+      "GENERATION": "4",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-174",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "188",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-188\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "12",
+      "GENERATION": "4",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-188",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "193",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-193\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "12",
+      "GENERATION": "4",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-193",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "197",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-197\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "13",
+      "GENERATION": "4",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-197",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "212",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-212\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "14",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-212",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "218",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-218\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "14",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-218",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "220",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-220\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "14",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-220",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "230",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-230\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "15",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-230",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "234",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "LOCAL",
+          "SUSPICIOUNESS": "1",
+          "INGREDIENT_PARENT": "successors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()",
+          "PATCH_HUNK_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "InsertBeforeOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-234\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "MP_RANKING": "0",
+          "PATCH_HUNK_CODE": "successors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e()"
+        }
+      ],
+      "TIME": "15",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-234",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -50 +50 @@\\n-\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) {\\n+\\tpublic void setSuccessors(java.util.ArrayList\u003cbugGroup.Node\u003e successors) { \\t\\tsuccessors \u003d new java.util.ArrayList\u003cbugGroup.Node\u003e();\\n\\n"
+    },
+    {
+      "VARIANT_ID": "236",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-236\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "16",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-236",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "239",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-239\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "16",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-239",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "240",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-240\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "16",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-240",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "244",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-244\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "16",
+      "GENERATION": "5",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-244",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "246",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-246\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "17",
+      "GENERATION": "6",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-246",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "249",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-249\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "17",
+      "GENERATION": "6",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-249",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "273",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-273\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "18",
+      "GENERATION": "6",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-273",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "289",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-289\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "20",
+      "GENERATION": "7",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-289",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "290",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-290\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "20",
+      "GENERATION": "7",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-290",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "294",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-294\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "20",
+      "GENERATION": "7",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-294",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "314",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-314\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "21",
+      "GENERATION": "7",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-314",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "342",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-342\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "23",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-342",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "344",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-344\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "23",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-344",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "345",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-345\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "23",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-345",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "346",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-346\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "24",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-346",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "347",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-347\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "24",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-347",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "350",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-350\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "24",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-350",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "351",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-351\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "24",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-351",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "354",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-354\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "24",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-354",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "356",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-356\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "25",
+      "GENERATION": "8",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-356",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "369",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-369\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "25",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-369",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "372",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-372\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "26",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-372",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "373",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-373\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "26",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-373",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "375",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-375\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "26",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-375",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "378",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-378\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "26",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-378",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "383",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-383\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "27",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-383",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "387",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-387\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "27",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-387",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "393",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-393\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "27",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-393",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "396",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-396\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "28",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-396",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "399",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-399\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "28",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-399",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "403",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-403\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "28",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-403",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "405",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-405\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "29",
+      "GENERATION": "9",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-405",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "414",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-414\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "29",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-414",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "415",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-415\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "29",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-415",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "421",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-421\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "30",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-421",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "434",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-434\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "31",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-434",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "436",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-436\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "31",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-436",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "447",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-447\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "32",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-447",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    },
+    {
+      "VARIANT_ID": "448",
+      "VALIDATION": "|true|0|5|[]|",
+      "patchhunks": [
+        {
+          "LOCATION": "bugGroup.Node",
+          "PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/bugOne\\/src\\/main\\/java\\/bugGroup\\/Node.java",
+          "INGREDIENT_SCOPE": "-",
+          "ORIGINAL_CODE": "this.successors \u003d successors",
+          "BUGGY_CODE_TYPE": "CtAssignmentImpl|CtBlockImpl",
+          "OPERATOR": "RemoveOp",
+          "MODIFIED_FILE_PATH": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-448\\/bugGroup\\/Node.java",
+          "LINE": "51",
+          "SUSPICIOUNESS": "1",
+          "MP_RANKING": "0"
+        }
+      ],
+      "TIME": "32",
+      "GENERATION": "10",
+      "FOLDER_SOLUTION_CODE": "\\/Users\\/ktns\\/comp0237-group-project\\/astor\\/.\\/output_astor\\/AstorMain-bugOne\\/\\/src\\/\\/variant-448",
+      "PATCH_DIFF_ORIG": "--- src\\/main\\/java\\/bugGroup\\/Node.java\\n+++ src\\/main\\/java\\/bugGroup\\/Node.java\\n@@ -51 +51 @@\\n-\\t\\tthis.successors \u003d successors;\\n+\\n\\n"
+    }
+  ]
+}
