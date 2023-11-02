@@ -1,0 +1,564 @@
+{
+    "program variant 42": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.value = null;\n+\n\n\n ----\n"
+    },
+    "program variant 45": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 48": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.predecessors = new java.util.ArrayList<bugGroup.Node>();\n+\n\n\n ----\n"
+    },
+    "program variant 53": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 55": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 56": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 62": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 64": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 68": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 72": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 75": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 1",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.successor = successor;\n+\n\n\n ----\n"
+    },
+    "program variant 84": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.successor = null;\n+\n\n\n ----\n"
+    },
+    "program variant 87": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.value = value;\n+\n\n\n ----\n"
+    },
+    "program variant 91": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 93": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tsuccessors = new java.util.ArrayList<bugGroup.Node>();\n+\n\n\n ----\n"
+    },
+    "program variant 94": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tsuccessors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 95": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 102": {
+        "operation": " ReplaceOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50,2 +50,2 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n-\t\tthis.successors = successors;\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tthis.predecessors = predecessors;\n+\n\n\n ----\n"
+    },
+    "program variant 107": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 109": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 111": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 112": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 114": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 116": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 2",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 129": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 132": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 137": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 154": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 158": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 162": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 3",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 165": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 4",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 174": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 4",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 188": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 4",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 193": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 4",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 197": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 4",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 212": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 218": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 220": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 230": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 234": {
+        "operation": " InsertBeforeOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "patchKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -50 +50 @@\n-\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) {\n+\tpublic void setSuccessors(java.util.ArrayList<bugGroup.Node> successors) { \t\tsuccessors = new java.util.ArrayList<bugGroup.Node>();\n\n\n ----\n"
+    },
+    "program variant 236": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 239": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 240": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 244": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 5",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 246": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 6",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 249": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 6",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 273": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 6",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 289": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 7",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 290": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 7",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 294": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 7",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 314": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 7",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 342": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 344": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 345": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 346": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 347": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 350": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 351": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 354": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 356": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 8",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 369": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 372": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 373": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 375": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 378": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 383": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 387": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 393": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 396": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 399": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 403": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 405": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 9",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 414": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 415": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 421": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 434": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 436": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 447": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n ----\n"
+    },
+    "program variant 448": {
+        "operation": " RemoveOp",
+        "lineNo": " 51",
+        "buggyKind": " CtAssignmentImpl|CtBlockImpl",
+        "generation": " 10",
+        "diffPatch": "--- src/main/java/bugGroup/Node.java\n+++ src/main/java/bugGroup/Node.java\n@@ -51 +51 @@\n-\t\tthis.successors = successors;\n+\n\n\n\nAstor Output:\n"
+    }
+}
